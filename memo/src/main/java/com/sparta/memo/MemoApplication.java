@@ -1,4 +1,4 @@
-package com.example.memo;
+package com.sparta.memo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
