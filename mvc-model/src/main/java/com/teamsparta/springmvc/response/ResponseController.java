@@ -1,4 +1,4 @@
-package com.sparta.springmvc.response;
+package com.teamsparta.springmvc.response;
 
 import com.teamsparta.springmvc.response.Star;
 import org.springframework.stereotype.Controller;
