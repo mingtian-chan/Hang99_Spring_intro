@@ -1,11 +1,9 @@
 package com.sparta.springprepare;
 
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
 
-@Getter
-@Setter
+@AllArgsConstructor
 public class memo {
     private String username;
     private String contents;
