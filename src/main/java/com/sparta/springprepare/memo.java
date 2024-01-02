@@ -1,17 +1,13 @@
 package com.sparta.springprepare;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class memo {
-    private String username;
+    private final String username;
     private String contents;
 
 
@@ -19,8 +15,7 @@ public class memo {
 
 class Main {
     public static void main(String[] args) {
-        memo memo = new memo();
-        memo.setUsername("chan");
+        memo memo = new memo("chan");
         System.out.println(memo.getUsername());
 
     }
