@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/memo" />
     <file type="web" url="file://$PROJECT_DIR$/mvc-model" />
     <file type="web" url="file://$PROJECT_DIR$/prepare" />
+    <file type="web" url="file://$PROJECT_DIR$/user_check" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
